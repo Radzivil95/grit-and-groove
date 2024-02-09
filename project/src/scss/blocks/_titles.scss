@@ -1,0 +1,19 @@
+.title {
+  font-size: 96px;
+  font-family: var(--title-font);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  &__first-part {
+    margin-right: 270px;
+  }
+  &__second-part {
+    margin-left: 165px;
+  }
+}
+
+.subtitle {
+  margin-top: 30px;
+  font-size: 36px;
+  font-family: var(--title-font);
+}

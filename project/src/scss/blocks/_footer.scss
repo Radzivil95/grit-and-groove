@@ -1,2 +1,25 @@
 .footer {
+  padding-bottom: 80px;
+  &__wrapper {
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: var(--white-bg);
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__timetable-img {
+    cursor: pointer;
+  }
+  &__btn {
+    width: 150px;
+    height: 55px;
+    background-color: var(--black-bg);
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
 }
